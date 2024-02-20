@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+h1 {
+    display: none;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+p {
+    display: none;
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .card {
 	float: left;
 	margin: 1.6%;
