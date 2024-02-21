@@ -22,12 +22,21 @@ p {
     font-size: 24px;
 }
 
+img {
+    margin: auto;
+}
+
 p.desc {
     font-size: 18px;
+}
+
+.crd-fill {
+    width: 100%;
 }
 
 .card {
 	float: left;
 	margin: 1.6%;
 	width: 30%;
+    display: none;
 }
