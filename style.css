@@ -21,7 +21,11 @@ p {
     font-weight: 400;
     font-size: 24px;
 }
-
+<<<<<<< HEAD
+.a{
+height: 100vh;
+=======
+}
 img {
     margin: auto;
 }
@@ -48,4 +52,5 @@ img.crd{
 =======
     display: none;
 >>>>>>> 969a36ef2ce810f9ec3788ec291d290d0beba3b9
+>>>>>>> 0b1eaf9d24200242da9f730f973feff400a50837
 }
