@@ -1,17 +1,25 @@
 
 $(document).ready(function() {
+if (typeof(Storage) !== "undefined"){
+ if (localStorage.getItem("dark") == "true")
+ {
+ 	$(".a").css("background-color", "rgb(20,20,20)");
+ }
+}
+else{
+ dark = false
+}
 
 $('#dark').click(function(){
 	$(".a").css("background-color", "rgb(20,20,20)");
-	
+		localStorage.setItem("dark", "true");
 	});
-	$('#light').click(function(){
+$('#light').click(function(){
 	$(".a").css("background-color", "rgb(255,255,255)");
 	});
-	/*$("button").click(function(){
-	$(body).css("background-color", "black");
-	});*/
+
 });
+
 
 $(window).on('load', function() {
 
@@ -19,5 +27,6 @@ $(window).on('load', function() {
 	$('div').fadeIn("fast");
 	$('p').fadeIn("fast");
 	$('h1').fadeIn("fast");
-	
+	$('.card').fadeIn("slow");
+
 });
