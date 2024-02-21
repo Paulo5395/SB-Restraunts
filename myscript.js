@@ -5,6 +5,10 @@ if (typeof(Storage) !== "undefined"){
  {
  	$(".a").css("background-color", "rgb(20,20,20)");
  }
+ if (localStorage.getItem("dark") == "false")
+ {
+ 	$(".a").css("background-color", "rgb(255,255,255)");
+ }
 }
 else{
  dark = false
@@ -16,8 +20,9 @@ $('#dark').click(function(){
 	});
 $('#light').click(function(){
 	$(".a").css("background-color", "rgb(255,255,255)");
+	localStorage.setItem("dark", "false");
 	});
-
+		
 });
 
 
