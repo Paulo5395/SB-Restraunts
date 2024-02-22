@@ -30,13 +30,10 @@ $('#light').click(function(){
 	$(".theme-card").css("color", "black");
 	//localStorage.setItem("dark", "false");
 	});
-		
 });
 
 
 $(window).on('load', function() {
-
-
 	$('div').fadeIn("fast");
 	$('p').fadeIn("fast");
 	$('h1').fadeIn("fast");
