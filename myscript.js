@@ -36,6 +36,5 @@ $('#light').click(function(){
 $(window).on('load', function() {
 	$('div').fadeIn("fast");
 	$('p').fadeIn("fast");
-	$('h1').fadeIn("fast");
-	$('.card').fadeIn("slow");
+	$('h1').fadeIn();
 });
