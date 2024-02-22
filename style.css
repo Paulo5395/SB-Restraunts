@@ -22,13 +22,27 @@ p {
     font-size: 24px;
 }
 
+img {
+    margin: auto;
+}
+
 p.desc {
     font-size: 18px;
 }
 
+.theme {
+    background-color: white;
+    color: black;
+}
+
+.theme-card {
+    background-color: white;
+    color: black;
+}
+
 .crd-fill {
     width: 100%;
-    height: 100%;
+	height:100%;
 }
 
 .card {
