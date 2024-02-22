@@ -15,7 +15,7 @@
     <title>BEST RESTRAUNTS in Santa Barbara</title>
   </head>
   
-  <body class="a">
+  <body class="theme">
     <nav class= "navbar navbar-expand-sm bg-dark navbar-dark">
     	<div class= "container-fluid">
 
@@ -37,9 +37,12 @@
           <li class="nav-item">
             <a class = "nav-link" href="page3.html">Page 3</a>
           </li>
-        </ul>        
-    		<button type="button" class = "btn btn-outline-light text-light" id="light">Light</button>  
-        <button type="button" class = "btn btn-outline-light text-light" id="dark">Dark</button>  
+        </ul> 
+        
+        <div class="d-grid gap-2 d-md-flex">
+          <button type="button" class = "btn btn-outline-light text-light" id="light">Light</button>  
+          <button type="button" class = "btn btn-outline-light text-light" id="dark">Dark</button>  
+        </div>
     	</div>
     	
     </nav>
@@ -51,42 +54,43 @@
 
 	<div class="fluid-container cards">
 
-		<div class = "card">
+		<div class = "card theme-card">
 			<div class = "card-header">
-        <img src="./images/secretBao.jpg" class="rounded crd-fill" alt="Restaurant"> 
+        <a href="page1.html"><img src="./images/secretBao.jpg" class="rounded crd-img crd-img-link" alt="Restaurant"></a>
+        <div class="img-text-b-r">Click to Open Restraunt</div>
       </div>
 			<div class = "card-body">
         <h2>Secret Bao</h2>
       </div>
 			<div class = "card-footer">
         <p class="desc">Description</p>
-		<a href="" target="_blank" class="btn btn-primary">Reviews</a>
+		    <a href="https://www.yelp.com/biz/secret-bao-santa-barbara?osq=Secret+Bao" target="_blank" class="btn btn-dark">Reviews</a>
       </div>
 		</div>
 
-		<div class = "card">
+		<div class = "card theme-card">
 			<div class = "card-header"> 
-         <img src="Nook.JPEG" class="rounded crd-fill" alt="The Nook Restraunt"> 
+         <img src="./images/Nook.JPEG" class="rounded crd-img crd-img-link" alt="The Nook Restraunt"> 
       </div>
 			<div class = "card-body">
         <h2>The Nook</h2>
       </div>
 			<div class = "card-footer">
         <p class="desc">Description</p>
-		<a href="https://www.yelp.com/biz/nook-santa-barbara-2" target="_blank" class="btn btn-primary">Reviews</a>
+		    <a href="https://www.yelp.com/biz/nook-santa-barbara-2" target="_blank" class="btn btn-dark">Reviews</a>
       </div>
 		</div>
 
-		<div class = "card">
+		<div class = "card theme-card">
 			<div class = "card-header"> 
-       <img src="" class="rounded" alt="">
+       <img src="./images/craftRamen.jpeg" class="rounded crd-img crd-img-link" alt="Craft Ramen Restraunt">
       </div>
 			<div class = "card-body">
         <h2>Craft Ramen</h2> 
       </div>
 			<div class = "card-footer">
         <p class="desc">Description</p>
-		<a href="" target="_blank" class="btn btn-primary">Reviews</a>
+		    <a href="https://www.yelp.com/biz/santa-barbara-craft-ramen-santa-barbara" target="_blank" class="btn btn-dark">Reviews</a>
       </div>
 		</div>
 
