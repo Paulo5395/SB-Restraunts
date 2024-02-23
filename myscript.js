@@ -1,4 +1,21 @@
 $(document).ready(function() {
+	
+$('#dark').mouseover(function(){
+	$(this).css("background-color", "#808080")
+});
+
+$('#dark').mouseout(function(){
+	$(this).css("background-color", "#000000")
+});
+	
+$('#light').mouseover(function(){
+	$(this).css("background-color", "#808080")
+});
+
+$('#light').mouseout(function(){
+	$(this).css("background-color", "#000000")
+});
+
 		if (typeof(Storage) !== "undefined"){
 		 if (localStorage.getItem("dark") == "true")
 		 {
