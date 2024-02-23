@@ -23,6 +23,15 @@ $('#dark').click(function(){
 	$(".theme-card").css("color", "white");
 	//localStorage.setItem("dark", "true");
 	});
+	
+$('#dark').mouseover(function(){
+	$(this).css("background-color", "#808080")
+});
+
+$('#dark').mouseout(function(){
+	$(this).css("background-color", "#000000")
+});
+	
 $('#light').click(function(){
 	$(".theme").css("background-color", "rgb(255,255,255)");
 	$(".theme").css("color", "black");
@@ -30,8 +39,16 @@ $('#light').click(function(){
 	$(".theme-card").css("color", "black");
 	//localStorage.setItem("dark", "false");
 	});
+	
+$('#light').mouseover(function(){
+	$(this).css("background-color", "#808080")
 });
 
+$('#light').mouseout(function(){
+	$(this).css("background-color", "#000000")
+});
+
+});
 
 $(window).on('load', function() {
 	$('div').fadeIn("fast");
