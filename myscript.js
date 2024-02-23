@@ -33,6 +33,10 @@ $(document).ready(function() {
 				$(".theme-card").css("color", "black");
 				localStorage.setItem("dark", "false");
 			});
+		$('.clickable').click(function(){
+				$(".clickable").css("width", "1000px");
+				
+			});
 });
 
 $(window).on('load', function() {
