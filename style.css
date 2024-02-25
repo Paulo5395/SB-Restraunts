@@ -9,7 +9,6 @@ h1 {
     display: none;
     font-weight: 900;
     font-size: 36px;
-    padding-left: 15px;
 }
 
 h2 {
@@ -20,7 +19,7 @@ h2 {
 p {
     display: none;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 img {
