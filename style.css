@@ -77,3 +77,11 @@ div.menu {
 	margin: 1.6%;
 	width: 30%;
 }
+
+#dark{
+	background-color:#000000;
+}
+
+#light{
+	background-color:#000000;
+}
