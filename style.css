@@ -38,16 +38,20 @@ button {
 div.review {
     width:60%; 
     float:left;
+	border-color:black;
+	height:400px;
 }
 
 div.bestItems {
     width: 40%;
     float: left;
+	height:auto;
 }
 
 div.menu {
     width: 40%;
     float: left;
+	height:auto;
 }
 
 div.menuOverlay {
