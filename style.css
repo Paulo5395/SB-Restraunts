@@ -63,10 +63,24 @@ div.menuOverlay {
     cursor: pointer; /* Add a pointer on hover */  
 }
 
+img.overlay-img-button {
+    width:99%;
+    height: auto;
+    user-select: none;
+    transition: opacity 0.3s ease-in-out, width 0.4s ease-in-out, height 0.4s ease-in-out;
+}
+
+img.overlay-img-button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
 img.overlay-img {
-    margin-left:20%;
-    margin-top:5%;
-    width:60%;
+    display:block;
+    margin:auto;
+    width:65%;
     height: auto;
     pointer-events: none;
     user-select: none;

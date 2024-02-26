@@ -68,4 +68,5 @@ $(window).on('load', function() {
 	$('div.shown').fadeIn("fast");
 	$('p').fadeIn("fast");
 	$('h1').fadeIn();
+	$('h2').fadeIn();
 });
