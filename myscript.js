@@ -65,8 +65,9 @@ $('#light').mouseout(function(){
 });
 
 $(window).on('load', function() {
-	$('div.shown').fadeIn("fast");
-	$('p').fadeIn("fast");
+	$('div.shown').fadeIn();
+	$('p').fadeIn();
 	$('h1').fadeIn();
 	$('h2').fadeIn();
+	$('img').fadeIn();
 });

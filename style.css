@@ -8,10 +8,11 @@ body {
 h1 {
     display: none;
     font-weight: 900;
-    font-size: 36px;
+    font-size: 50px;
 }
 
 h2 {
+    display: none;
     font-weight: 700;
     font-size: 24px;
 }
@@ -23,34 +24,12 @@ p {
 }
 
 img {
+    display: block;
     margin: auto;
-}
-
-p.desc {
-    font-size: 18px;
 }
 
 button {
     float: right;
-}
-
-div.review {
-    width:60%; 
-    float:left;
-	border-color:black;
-	height:400px;
-}
-
-div.bestItems {
-    width: 40%;
-    float: left;
-	height:auto;
-}
-
-div.menu {
-    width: 40%;
-    float: left;
-	height:auto;
 }
 
 div.menuOverlay {
@@ -90,6 +69,12 @@ img.overlay-img {
     user-select: none;
 }
 
+img.food-item {
+    float:left;
+    width: 47%;
+    margin: 5px;
+}
+
 .theme {
     background-color: white;
     color: black;
@@ -117,6 +102,11 @@ img.overlay-img {
 	float: left;
 	margin: 1.6%;
 	width: 30%;
+}
+
+.logo{
+    display: inline-block;
+    width:70px;
 }
 
 #dark{
