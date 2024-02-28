@@ -63,11 +63,3 @@ $('#light').mouseout(function(){
 			$(".menuOverlay").css("display", "none");
 		});
 });
-
-$(window).on('load', function() {
-	$('div.shown').fadeIn();
-	$('p').fadeIn();
-	$('h1').fadeIn();
-	$('h2').fadeIn();
-	$('img').fadeIn();
-});
