@@ -35,21 +35,24 @@ img {
 button {
     float: right;
 }
+
 .tbl-container {
    
     margin-top: 10px;
     
     margin-bottom: 10px;
     border-radius:6px
-  }
-  
-  .bdr {
-    border-radius: 6px;
-    overflow: hidden;
-  }
-table.table-striped{
-border-radius: 10px;
 }
+  
+.bdr {
+    border-radius: 6px;
+    overflow: hidden;  
+}
+
+table.table-striped {
+    border-radius: 10px;
+}
+
 div.menuOverlay {
     position: fixed; /* Sit on top of the page content */
     display: none; /* Hidden by default */
@@ -86,7 +89,6 @@ img.overlay-img {
     pointer-events: none;
     user-select: none;
 }
-
 
 .food-item {
     float: left;
