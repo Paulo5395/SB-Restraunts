@@ -35,7 +35,21 @@ img {
 button {
     float: right;
 }
-
+.tbl-container {
+   
+    margin-top: 10px;
+    
+    margin-bottom: 10px;
+    border-radius:6px
+  }
+  
+  .bdr {
+    border-radius: 6px;
+    overflow: hidden;
+  }
+table.table-striped{
+border-radius: 10px;
+}
 div.menuOverlay {
     position: fixed; /* Sit on top of the page content */
     display: none; /* Hidden by default */
@@ -107,6 +121,14 @@ img.overlay-img {
 .logo{
     display: inline-block;
     width:70px;
+}
+
+.border {
+    border: solid black 1px;
+}
+
+.card {
+    width: 100%;
 }
 
 #dark{

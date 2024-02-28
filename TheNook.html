@@ -20,59 +20,58 @@
     	<div class= "container-fluid">
 
         <ul class="navbar-nav">
-          <li class="nav-item">
-              <a class = "navbar-brand" href="index.html">
-              <img src="./images/SB Best Restaurants-logos_white.png" alt="SBR logo" style = "width:70px">
-              </a>
+            <li class="nav-item">
+                <a class = "navbar-brand" href="index.html">
+                    <img src="./images/SB Best Restaurants-logos_white.png" alt="SBR logo" class="logo">
+                </a>
             </li>
-        
-          <li class="nav-item">
-            <a class = "nav-link" href="page1.html">Page 1</a>
-          </li>
-
-          <li class="nav-item">
-            <a class = "nav-link" href="page2.html">Page 2</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class = "nav-link" href="page3.html">Page 3</a>
-          </li>
         </ul> 
         
-        <div class="d-grid gap-2 d-md-flex">
-          <button type="button" class = "btn btn-outline-light text-light" id="light">Light</button>  
-          <button type="button" class = "btn btn-outline-light text-light" id="dark">Dark</button>  
-        </div>
+            <div class="d-grid gap-2 d-md-flex">
+                <button type="button" class = "btn btn-outline-light text-light" id="light">Light</button>  
+                <button type="button" class = "btn btn-outline-light text-light" id="dark">Dark</button>  
+            </div>
     	</div>
     	
     </nav>
 
-    
-    <div>
-        <h1>The Nook</h1>
-    </div>
+    <div class="fluid-container shown row" style="margin:10px;">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4">
+            <h1>The Nook</h1>
 
-    <div class="fluid-container shown">
-        <div class="review" style = "padding:20px;">
-            <p>
-The Nook is a restaurant located in the heart of the funk zone. Sporting a hefty 4.4 out of five stars, this great eatery is a necessary experience for anyone who is visiting Santa Barbara, or even just looking for a place to eat dinner. This establishment has a vast menu filled with California cuisine that will make your mouth water. Not only this, but the nook is working in conjunction with 2 other local bars to provide the finest drink and one of the most fun environments in Santa barbara. And for those nature lovers out there, Santa barbara’s stunning beach is only a couple blocks away. The Nook truly is the place to be in Santa Barbara for both expertly crafted food and a wonderfully exhilarating environment.
-</p>
+            <div class="thumbnail">
+                <img src="./images/the-nook/Nook.JPEG" class="rounded" style="width:100%;">
+            </div>
+
+            <div class="bestItems">
+                <h2>Best Items</h2>
+                <img src="./images/the-nook/LobsterMac.JPEG" class="rounded food-item">
+                <img src="./images/the-nook/NookBurger.JPEG" class="rounded food-item">
+                <img src="./images/the-nook/pFries.JPEG" class="rounded food-item">
+                <img src="./images/the-nook/Tacos.JPEG" class="rounded food-item">
+                <p>Lobster Mac 'N Cheese, NOOK Burger, Garlic White Truffle Parmesan Fries, and Blackened Rockfish Soft Tacos.</p>
+            </div>
         </div>
 
-        <div class="bestItems">
-            <h2>Best Items</h2>
-			<p>Lobster Mac 'N Cheese, NOOK Burger, Garlic White Truffle Parmesan Fries, Waterline Seafood Burger, Blackened Rockfish Soft Tacos</p>
+        <div class="col-sm-6" style="margin-top: 65px;">
+            <div class="review">
+                <h2>Review</h2>
+                <p>
+                    The Nook is a restaurant located in the heart of the funk zone. Sporting a hefty 4.4 out of five stars, this great eatery is a necessary experience for anyone who is visiting Santa Barbara, or even just looking for a place to eat dinner. This establishment has a vast menu filled with California cuisine that will make your mouth water. Not only this, but the nook is working in conjunction with 2 other local bars to provide the finest drink and one of the most fun environments in Santa barbara. And for those nature lovers out there, Santa barbara’s stunning beach is only a couple blocks away. The Nook truly is the place to be in Santa Barbara for both expertly crafted food and a wonderfully exhilarating environment.
+                </p>
+            </div>
+
+            <div class="menu">
+                <h2>Menu</h2>
+                <img src="./images/the-nook/nookMenu.JPEG" class="rounded overlay-img-button" alt="Secret Bao Menu">
+            </div>
         </div>
 
-        <div class="menu">
-            <h2>Menu</h2>
-         
-            <img src="nookMenu.JPEG" class="rounded crd-img crd-img-link overlay-img-button" alt="Secret Bao Menu" id="sbMenu" style = "height:auto" >
+        <div class="menuOverlay hidden">
+          <img src="./images/the-nook/nookMenu.JPEG" class="rounded crd-img overlay-img">
         </div>
-
-        <div class="menuOverlay">
-          <img src="nookMenu.JPEG" class="rounded crd-img overlay-img">
-        </div>
+        <div class="col-sm-1"></div>
     </div>
   </body>
 </html>
