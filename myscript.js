@@ -20,16 +20,16 @@ $('#light').mouseout(function(){
 		 if (localStorage.getItem("dark") == "true")
 		 {
 			$(".theme").css("background-color", "#383c42");
-			$(".theme-card").css("background-color", "#565b61")
+			$(".theme-element").css("background-color", "#565b61")
 			$(".theme").css("color", "white");
-			$(".theme-card").css("color", "white");
+			$(".theme-element").css("color", "white");
 		 }
 		 if (localStorage.getItem("dark") == "false")
 		 {
 			$(".theme").css("background-color", "rgb(255,255,255)");
 			$(".theme").css("color", "black");
-			$(".theme-card").css("background-color", "rgb(255,255,255)");
-			$(".theme-card").css("color", "black");
+			$(".theme-element").css("background-color", "rgb(255,255,255)");
+			$(".theme-element").css("color", "black");
 		 }
 		}
 		else{
@@ -38,16 +38,16 @@ $('#light').mouseout(function(){
 		
 		$('#dark').click(function(){
 			$(".theme").css("background-color", "#383c42");
-			$(".theme-card").css("background-color", "#565b61")
+			$(".theme-element").css("background-color", "#565b61")
 			$(".theme").css("color", "white");
-			$(".theme-card").css("color", "white");
+			$(".theme-element").css("color", "white");
 			localStorage.setItem("dark", "true");
 		});
 		$('#light').click(function(){
 			$(".theme").css("background-color", "rgb(255,255,255)");
 			$(".theme").css("color", "black");
-			$(".theme-card").css("background-color", "rgb(255,255,255)");
-			$(".theme-card").css("color", "black");
+			$(".theme-element").css("background-color", "rgb(255,255,255)");
+			$(".theme-element").css("color", "black");
 			localStorage.setItem("dark", "false");
 		});
 		
